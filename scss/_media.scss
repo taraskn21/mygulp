@@ -1,0 +1,54 @@
+@import "bourbon";
+@import "vars.scss";
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.wrapper{
+		width: auto;
+	}
+	.pad{
+		padding: 50px 5px !important;
+	}
+	footer{
+		text-align: center;
+		.wrapper{
+			width: auto;
+		}
+		ul{
+			float: none;
+			display: inline-block;
+			text-align: center;
+			li{
+				margin-bottom: 10px;
+				margin-right: 0;
+				float: none;
+			}
+		}
+		.gs{
+			float: none;
+			display: block;
+		}
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.pad{
+		padding: 20px 5px !important;
+	}
+	// 100% ширина окна
+	// .fancybox-wrap{
+	// 	width: 100% !important;
+	// 	left: 0 !important;
+	// }
+}
